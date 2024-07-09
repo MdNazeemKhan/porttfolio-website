@@ -9,6 +9,10 @@
 
 /* shared style */
 
+.secondary-bg{
+    background-color: #FFF8F3;
+    
+}
 .text-primary{
 color: #FD6E0A;
 
@@ -31,7 +35,6 @@ color: #FD6E0A;
         border: none;
         
 }
-
 
 
 
@@ -98,3 +101,127 @@ nav li a{
 .banner-content{
     max-width: 580px;
 }
+
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
+
+
+/* about style */
+
+.about{
+    border-radius: 10px;
+}
+
+.section-title{
+    font-size:  35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+
+
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+}
+
+
+/* what i do section style */
+
+.skill{
+    margin-top: 150px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-cotainer{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.skill-description{
+    text-align: left;
+}
+
+/* Resume Section Style */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    text-align: left;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+
+    color: #757575;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+     /* footer section */
+
+     footer{
+        padding: 130px 230px;
+        display: flex;
+        gap: 100px;
+        justify-content: space-around;
+     }
+     
+  .footer-column{
+    width: 50%;
+  }
+
+ footer .text, .email{
+            height: 40px;
+            border-radius: 5px;
+            background-color: white;
+            color: ;
+            display: block;
+            width: 100%;
+            padding: 10px 20px;
+            margin-bottom: 24px;
+            border: none;
+  }
+
+  footer .massage{
+            height: 100px;
+            border-radius: 5px;
+            background-color: white;
+        
+            display: block;
+            width: 100%;
+            padding: 10px 20px;
+            margin-bottom: 24px;
+            border: none;
+  }
